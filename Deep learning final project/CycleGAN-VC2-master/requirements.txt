@@ -2,3 +2,6 @@ torch
 librosa
 tqdm
 pyworld
+
+librosa cannot write anymore, so we need soundfile
+conda install -c conda-forge librosa=0.7.0
